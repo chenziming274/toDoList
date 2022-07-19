@@ -15,7 +15,6 @@
     export default {
       name:'List',
       components:{Item},
-      // 声明接受props
       props:{
         todos:{
           type:Array,

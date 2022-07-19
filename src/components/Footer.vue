@@ -31,14 +31,6 @@
         isAll(){
           return this.doneCount === this.total && this.total != 0
         },
-        /* isAll:{
-          get(){
-            return this.doneCount === this.total && this.total != 0
-          },
-          set(value){
-            this.updataAll(value)
-          }
-        } */
       },
       props:['todos','updataAll','clearAllDone']
     }
